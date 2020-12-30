@@ -3,9 +3,9 @@ spatial data (dartfish) processing and analysis
 
 ## Installation
 - Requirements
-[SimpleElastix](https://github.com/SuperElastix/SimpleElastix)
-[FIJI](https://downloads.imagej.net/fiji/latest/fiji-linux64.zip)
-[Cellpose](https://github.com/mouseland/cellpose)
+*[SimpleElastix](https://github.com/SuperElastix/SimpleElastix)
+*[FIJI](https://downloads.imagej.net/fiji/latest/fiji-linux64.zip)
+*[Cellpose](https://github.com/mouseland/cellpose)
 
 - for current version, you can clone the github repository
 
@@ -21,7 +21,7 @@ python -m spPipline [arguments]
 ```
 
 Arguments | Description | default
------------|----------
+-----------|----------- | -------
 `-r or --raw` | input path of Raw files. | "../0_Raw"
 `-o or --output` | output path contains processed files. | "./"
 `-s or --sigma` | sigma value for gaussian filter. | 0.7
