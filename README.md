@@ -3,9 +3,11 @@ spatial data (dartfish) processing and analysis
 
 ## Installation
 - Requirements
-*[SimpleElastix](https://github.com/SuperElastix/SimpleElastix)
-*[FIJI](https://downloads.imagej.net/fiji/latest/fiji-linux64.zip)
-*[Cellpose](https://github.com/mouseland/cellpose)
+[SimpleElastix](https://github.com/SuperElastix/SimpleElastix)
+
+[FIJI](https://downloads.imagej.net/fiji/latest/fiji-linux64.zip)
+
+[Cellpose](https://github.com/mouseland/cellpose)
 
 - for current version, you can clone the github repository
 
