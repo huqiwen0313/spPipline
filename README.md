@@ -15,12 +15,12 @@ cd spPipline
 ```  
 
 ## Usage
+1. Copy "_codebook" to the output path
+2. Run processing pipelines
 ```bash
 cd spPipline
 python -m spPipline [arguments]
 ```
-Also copy "_codebook" to the output path 
-
 Arguments | Description | default
 -----------|----------- | -------
 `-r or --raw` | input path of Raw files. | "../0_Raw"
