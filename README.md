@@ -2,12 +2,10 @@
 spatial data (dartfish) processing and analysis
 
 ## Installation
-- Requirements
-[SimpleElastix](https://github.com/SuperElastix/SimpleElastix)
-
-[FIJI](https://downloads.imagej.net/fiji/latest/fiji-linux64.zip)
-
-[Cellpose](https://github.com/mouseland/cellpose)
+### Requirements
+* [SimpleElastix](https://github.com/SuperElastix/SimpleElastix)
+* [FIJI](https://downloads.imagej.net/fiji/latest/fiji-linux64.zip)
+* [Cellpose](https://github.com/mouseland/cellpose)
 
 - for current version, you can clone the github repository
 
@@ -21,6 +19,7 @@ cd spPipline
 cd spPipline
 python -m spPipline [arguments]
 ```
+Also copy "_codebook" to the output path 
 
 Arguments | Description | default
 -----------|----------- | -------
@@ -39,7 +38,6 @@ Arguments | Description | default
 `-ij or --ij_path` | The path to imagej’s executables | "/home/qiwenhu/software/Fiji.app/ImageJ-linux64" (need to set with your own path)
 `-sr or --stitchRef` | The round to be used as the reference for stitching | "dc3"
 
-Also copy "_codebook" to the output path 
 
 ## output file structure (processed data)
 Example:
@@ -56,8 +54,3 @@ SAMPLE (BUKMAP_20200303F_DFv1_ROI1)
     │   └── data_Starfish
     └── 4_CellAssignment
 </pre>
-
-
-
-
-
