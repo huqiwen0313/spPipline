@@ -48,9 +48,10 @@ def main():
     cycle_reference = args.rnd_list[round(len(args.rnd_list) / 2)]
     barcode_file = os.path.join(args.output, '_codebook/TB12k_Mar2018_V7_noAnchor.txt')
     codebook_file = os.path.join(args.output, '_codebook/TB12k_Mar2018_V7_noAnchor.json')
-    create_jsoncodebook(infilepath=barcode_file, outfilepath=codebook_file,
-                        totalCycles=6, offCycles=2, firstCycleAnchor=False,
-                        addEmptyBarcodes=True, uniColorAllowed=False)
+
+  #  create_jsoncodebook(infilepath=barcode_file, outfilepath=codebook_file,
+  #                      totalCycles=6, offCycles=2, firstCycleAnchor=False,
+  #                      addEmptyBarcodes=True, uniColorAllowed=False)
 
     # image align and maximum projection
     image_align = ImageAlign(raw_dir=args.raw, output_dir=args.output,
@@ -113,3 +114,7 @@ def main():
     bcmag = 'bcmag2.0'
     spot_file = os.path.join(args.output, '3_Decoded/output_Starfish/{}/all_spots_filtered.tsv'.format(bcmag))
     segmentation(nuc_path, saving_path, bcmag, spot_file)
+
+
+
+

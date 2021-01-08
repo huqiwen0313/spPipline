@@ -268,16 +268,16 @@ except ImportError:
     except ImportError:
         lzma = None
 
-try:
-    if __package__:
-        from . import _tifffile
-    else:
-        import _tifffile
-except ImportError:
-    warnings.warn(
-        "ImportError: No module named '_tifffile'. "
-        "Loading of some compressed images will be very slow. "
-        "Tifffile.c can be obtained at http://www.lfd.uci.edu/~gohlke/")
+#try:
+#    if __package__:
+#        from . import _tifffile
+#    else:
+#        import _tifffile
+#except ImportError:
+#    warnings.warn(
+#        "ImportError: No module named '_tifffile'. "
+#        "Loading of some compressed images will be very slow. "
+#        "Tifffile.c can be obtained at http://www.lfd.uci.edu/~gohlke/")
 
 
 __version__ = '2016.06.21'

@@ -93,6 +93,7 @@ class ImageAlign:
 
     def dimension_align_2d(self):
         position_list = listdirectories(path.join(self.dir_output_Projected))
+
         if not path.isdir(self.dir_output_aligned):
             makedirs(self.dir_output_aligned)
 
