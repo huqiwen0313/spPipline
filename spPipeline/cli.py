@@ -49,9 +49,9 @@ def main():
     barcode_file = os.path.join(args.output, '_codebook/TB12k_Mar2018_V7_noAnchor.txt')
     codebook_file = os.path.join(args.output, '_codebook/TB12k_Mar2018_V7_noAnchor.json')
 
-  #  create_jsoncodebook(infilepath=barcode_file, outfilepath=codebook_file,
-  #                      totalCycles=6, offCycles=2, firstCycleAnchor=False,
-  #                      addEmptyBarcodes=True, uniColorAllowed=False)
+    create_jsoncodebook(infilepath=barcode_file, outfilepath=codebook_file,
+                        totalCycles=6, offCycles=2, firstCycleAnchor=False,
+                        addEmptyBarcodes=True, uniColorAllowed=False)
 
     # image align and maximum projection
     image_align = ImageAlign(raw_dir=args.raw, output_dir=args.output,
